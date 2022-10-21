@@ -7,6 +7,9 @@ const Body = Element.create('div', {class: `wrapper`})
 const h2 = Element.create('h2')
 h2.textContent = 'Crown and Anchor'
 Body.appendChild(h2)
+Body.innerHTML += `<p>
+Please contribute to this page!!!
+</p>`
 
 
 export const template = (root) => {
