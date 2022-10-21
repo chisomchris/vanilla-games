@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+:root{
+  scroll-behavior: smooth;
+  scroll-padding-top: 1rem;
+}
+.wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.slider{
+  margin: 1rem 0;
+  position: relative;
+  height: 18rem;
+}
+.slider .cont{
+  background-color: red;
+  display: flex;
+  overflow: hidden;
+  border: solid red .2rem;
+  position: relative;
+  height: 100%;
+  right: 0%;
+  left: 0;
+}
+.slider .cont .carousel{
+  display: flex;
+  border: solid green .2rem;
+  position: absolute;
+  left: -100%; 
+  width: 400%;
+}
+.carousel img{
+  width: 25%;
+}

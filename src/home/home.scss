@@ -1,0 +1,40 @@
+@import url(../normalize.css);
+*{
+  box-sizing: border-box;
+  font-weight: 300;
+  // background-color: #3331;
+}
+.wrapper{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+:root{
+  scroll-behavior: smooth;
+  scroll-padding-top: 1rem;
+}
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  position: relative;
+}
+#root > footer{
+  margin-top: auto;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+li{
+  & + li{
+    margin-top: .75em;
+  }
+}
+h1,h2,h3,h4{
+  color: orangered;
+}
+P{
+  text-align: justify;
+}
