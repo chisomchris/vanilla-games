@@ -263,7 +263,7 @@ const span = create('span', {
 button.appendChild(span);
 Div.appendChild(button);
 const logo = create('a', {
-  href: '/#'
+  href: 'vanilla-games/#'
 });
 logo.textContent = 'Vanilla Games';
 logo.classList = `${_home_home_module__WEBPACK_IMPORTED_MODULE_1__["default"].logo} ${_home_home_module__WEBPACK_IMPORTED_MODULE_1__["default"].calign}`;
