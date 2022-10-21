@@ -22,7 +22,7 @@ const h2 = _utilities_element__WEBPACK_IMPORTED_MODULE_1__.Element.create('h2');
 h2.textContent = 'Page Not Found!';
 const para = _utilities_element__WEBPACK_IMPORTED_MODULE_1__.Element.create('p');
 const link = _utilities_element__WEBPACK_IMPORTED_MODULE_1__.Element.create('a', {
-  href: '/vanilla-games/'
+  href: '/vanilla-games/#'
 });
 link.textContent = 'Go to Home Page...';
 para.appendChild(link);
