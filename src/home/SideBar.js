@@ -34,6 +34,7 @@ function setNavMinHeight(){
   const heightFooter = footer ? footer.getBoundingClientRect().height : 40
   aside.style['minHeight'] = (pageWidth < 820) ? `calc(100vh - ${heightHeader - heightFooter}px) ` : '0px'
 }
+
 setNavMinHeight()
 window.addEventListener('resize', setNavMinHeight)
 

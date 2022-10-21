@@ -5,6 +5,7 @@ const root = document.getElementById('root')
 function template(name, templateFunction){
     return templates[name] = templateFunction
 }
+
 function route(route, template){
   if(typeof template == 'function'){
     return routes[route] = template
@@ -14,6 +15,7 @@ function route(route, template){
     return
   }
 }
+
 function resolveRoute(route){
   try {
     return routes[route]
@@ -21,6 +23,7 @@ function resolveRoute(route){
     throw new Error(`${route} is not defined`)
   }
 }
+
 function router(evt){
   evt.preventDefault()
   const url = window.location.hash.slice(1) || '/' 

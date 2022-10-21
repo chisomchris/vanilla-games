@@ -39,7 +39,7 @@ Ensure use of clear and concise variable names, and also make proper choice of d
 
 ## Usage
 - fork the the [Vanilla Games](http://localhost:8080/) repository. 
-- clone this project from  github     repository into your local machine.
+- clone this project from  github repository into your local machine.
 - open your terminal and change to your project root directory
 - run the script `npm install` to add dependecies to the project
 - run the script `npm start`, to test if webpack development server is working properly ( It should open localhost : port 8080 by default ).

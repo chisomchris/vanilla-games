@@ -1,5 +1,5 @@
 import { Element } from "../utilities/element";
-import styles from './home.module'
+// import styles from './home.module'
 
 const { create } = Element
 
@@ -7,15 +7,14 @@ const challenge = create('section', {class: `challenge`}, {id: 'challenge'})
 const header = create('h2')
 header.textContent = 'The Challenge'
 const para = create('p')
-para.textContent = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatem fugiat perspiciatis reiciendis laboriosam nisi soluta ut explicabo magni esse vero eaque mollitia consequatur tempora, recusandae libero eligendi ad totam.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nihil eligendi ipsam maiores ullam quam vel consectetur quo, accusantium cum, iure voluptates veritatis quidem. Veniam quasi magni sequi repellendus `
+para.textContent = `Do you have what it takes to be called a JavaScript developer? Are you part of the Vanilla folks? `
 
 const para1 = create('p')
-para1.textContent = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatem fugiat perspiciatis reiciendis laboriosam nisi soluta ut explicabo magni esse vero eaque mollitia consequatur tempora, recusandae libero eligendi ad totam.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nihil eligendi ipsam maiores ullam quam vel consectetur quo, accusantium cum, iure voluptates veritatis quidem. Veniam quasi magni sequi repellendus `
+para1.textContent = `If yes, Then this is for you!!! Create JavaScript only pages and showcase your work here. You can contribute to existing page here or add you beautifully crafted webpage using JavaScript. `
+
 const para2 = create('p')
-para2.textContent = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatem fugiat perspiciatis reiciendis laboriosam nisi soluta ut explicabo magni esse vero eaque mollitia consequatur tempora, recusandae libero eligendi ad totam.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nihil eligendi ipsam maiores ullam quam vel consectetur quo, accusantium cum, iure voluptates veritatis quidem. Veniam quasi magni sequi repellendus `
+para2.textContent = `Are you up to the tasks? Happy coding, viola!  `
+
 challenge.appendChild(header) 
 challenge.appendChild(para)
 challenge.appendChild(para1)

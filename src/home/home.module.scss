@@ -12,6 +12,17 @@ $secondary-color : white;
   color: white;
   font-size: 1.125rem;
 }
+.code{
+  background-color: rgb(231, 231, 231);
+  display: inline-block;
+  padding: 0.125rem .5rem .25rem;
+  border-radius: .125rem;
+  line-height: 1em;
+  -webkit-border-radius: .125rem;
+  -moz-border-radius: .125rem;
+  -ms-border-radius: .125rem;
+  -o-border-radius: .125rem;
+}
 .logo{
   text-decoration: none;
   color: white;
@@ -24,9 +35,6 @@ $secondary-color : white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media screen and (min-width: 820px) {
-    justify-content: center;
-  }
 }
 .span{
   color: $primary-color;
@@ -151,9 +159,17 @@ $secondary-color : white;
     border-radius: .125rem;
   }
 }
-
 .h5{
   margin: 0;
   color: white;
   font-weight: 400;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  img{
+    max-height: 18rem;
+    object-fit: cover;
+    object-position: top center;
+  }
 }
