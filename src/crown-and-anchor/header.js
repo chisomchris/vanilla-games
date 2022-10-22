@@ -3,7 +3,7 @@ import styles from '../home/home.module'
 
 const {create } = Element
 
-const logo = create('a', {href: '/#'})
+const logo = create('a', {href: '/vanilla-games/#'})
 logo.textContent = 'Vanilla Games'
 logo.classList = (`${styles.logo} ${styles.calign}`)
 

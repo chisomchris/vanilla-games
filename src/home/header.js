@@ -16,7 +16,7 @@ button.appendChild(span)
 
 Div.appendChild(button)
 
-const logo = create('a', {href: '/#'})
+const logo = create('a', {href: '/vanilla-games/#'})
 logo.textContent = 'Vanilla Games'
 logo.classList = (`${styles.logo} ${styles.calign}`)
 
