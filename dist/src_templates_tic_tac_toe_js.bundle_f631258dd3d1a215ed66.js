@@ -35,7 +35,7 @@ const {
   create
 } = _utilities_element__WEBPACK_IMPORTED_MODULE_0__.Element;
 const logo = create('a', {
-  href: '/vanilla-games/#'
+  href: '/#'
 });
 logo.textContent = 'Vanilla Games';
 logo.classList = `${_home_home_module__WEBPACK_IMPORTED_MODULE_1__["default"].logo} ${_home_home_module__WEBPACK_IMPORTED_MODULE_1__["default"].calign}`;
